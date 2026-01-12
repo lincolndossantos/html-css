@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+
+
+:root {
+     --cor001: #c5ebd6;
+    --cor002: #83e1ad;
+    --cor003: #3ddc84;
+    --cor004: #2fa866;
+    --cor005: #1a5c37;
+    --cor006: #063d1e;
+
+    --font-padrão: arial, verdana,helvetica, sans-serif;
+    --font-destaque:  "Bebas Neue", sans-serif;
+    --font-android: 'android', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: var(--cor001);
+    font-family: var(--font-padrão);
+
+}
+
+header {
+    background-color: var(--cor005);
+    min-height: 150px;
+    text-align: center;
+    
+}
+
+header h1 {
+    color: white;
+    font-family: var(--font-destaque);
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px hsl(0, 0%, 0%);
+
+}
+
+header > p {
+    color: white;
+    font: var(--font-padrão);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px hsl(0, 0%, 0%);
+
+}
+
+nav {
+    background-color: var(--cor005);
+}

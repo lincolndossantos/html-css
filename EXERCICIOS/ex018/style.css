@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Oswald:wght@200..700&display=swap');
+
+h1 {
+    font-family: 'BBH Bartle', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'BBH Bartle', 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
