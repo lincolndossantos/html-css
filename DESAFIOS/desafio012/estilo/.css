@@ -1,24 +1,38 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte-01: Verdana, Geneva, Tahoma, sans-serif;/* Fonte Padrão, cabeçalho, rodape etc.. */
+    --fonte-02: "Passion One", sans-serif;/* Fonte Títulos */
+    --fonte-03: 'Edu SA Hand', cursive;/* conteudo etc.. */
+}
+
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte-01);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+   
 }
 
 header h1 {
    padding-top  : 50px;
    font-variant: small-caps;
+   font-family: var(--fonte-02);
+   font-size: 4em;
 }
 
 header > p {
@@ -33,10 +47,12 @@ header a, footer a{
 }
 
 section {
-    padding-top: 10vh;
+   padding-top: 10vh;
    padding-bottom: 10vh;
    line-height: 2em;
    padding-left: 30px;
+   font-family: var(--fonte-03);
+   font-size: 2em;
 }
 
 a:hover, footer a:hover {
